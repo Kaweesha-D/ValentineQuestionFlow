@@ -11,8 +11,13 @@ body {
     height: 100vh;
 }
 
+/* Hide all slides initially */
 .slide {
     display: none;
+}
+
+#slide1 {
+    display: block; /* Ensure the first slide is visible at the start */
 }
 
 h1 {
